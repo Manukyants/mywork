@@ -11,7 +11,7 @@ public class Main {
         Author author = new Author("Антон", "Чехов", "Павлович");
         System.out.println("Автор: " + author.getSurname() + " " + author.getName() + " " + author.getMidle());
 
-        book.setYear(1792);
+        book.setYear(1790);
         System.out.println("Ручное изменение года " + book.getYear() + " год издания");
     }
 }
