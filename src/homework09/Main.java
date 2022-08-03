@@ -5,13 +5,13 @@ public class Main {
 
     public static void main(String [] args){
 
-        Book book = new Book("Палата №6", 1892);
-        System.out.println("Произведение: " + book.getName() + ", год издания: " + book.getYear());
+        Book book = new Book("РџР°Р»Р°С‚Р° в„–6", 1892);
+        System.out.println("РџСЂРѕРёР·РІРµРґРµРЅРёРµ: " + book.getName() + ", РіРѕРґ РёР·РґР°РЅРёСЏ: " + book.getYear());
 
-        Author author = new Author("Антон", "Чехов", "Павлович");
-        System.out.println("Автор: " + author.getSurname() + " " + author.getName() + " " + author.getMidle());
+        Author author = new Author("РђРЅС‚РѕРЅ", "Р§РµС…РѕРІ", "РџР°РІР»РѕРІРёС‡");
+        System.out.println("РђРІС‚РѕСЂ: " + author.getSurname() + " " + author.getName() + " " + author.getMidle());
 
         book.setYear(1790);
-        System.out.println("Ручное изменение года " + book.getYear() + " год издания");
+        System.out.println("Р СѓС‡РЅРѕРµ РёР·РјРµРЅРµРЅРёРµ РіРѕРґР° " + book.getYear() + " РіРѕРґ РёР·РґР°РЅРёСЏ");
     }
 }
