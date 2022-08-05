@@ -1,11 +1,14 @@
 package homework09;
 
 public class Book {
-    String name;
-    int year;
-    public Book(String name, int year) {
+    private String name;
+    private int year;
+    private Author author;
+
+    public Book(String name, int year, Author author) {
         this.name = name;
         this.year = year;
+        this.author = author;
     }
 
     public String getName() {
@@ -13,6 +16,9 @@ public class Book {
     }
     public int getYear(){
         return this.year;
+    }
+    public Author getAuthor(){
+        return author;
     }
     public void setYear(int year){
         this.year = year;
